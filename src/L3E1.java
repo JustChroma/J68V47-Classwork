@@ -6,17 +6,17 @@ public class L3E1 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter your first name: ");
+        System.out.print("Enter your first name: ");
         String firstName = input.nextLine();
 
-        System.out.println("Enter your surname: ");
+        System.out.print("Enter your surname: ");
         String surname = input.nextLine();
 
-        System.out.println("Enter your year of birth: ");
+        System.out.print("Enter your year of birth: ");
         int yearOfBirth = input.nextInt();
 
-        System.out.println("Username: " + firstName.substring(0,1).toUpperCase() + surname.toLowerCase());
-        System.out.println("Password: " + surname.substring(0,1).toLowerCase() + firstName.toUpperCase() + yearOfBirth);
+        System.out.print("Username: " + firstName.substring(0,1).toUpperCase() + surname.toLowerCase());
+        System.out.print("Password: " + surname.substring(0,1).toLowerCase() + firstName.toUpperCase() + yearOfBirth);
 
     }
 
