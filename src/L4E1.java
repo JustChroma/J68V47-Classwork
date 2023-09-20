@@ -21,15 +21,9 @@ public class L4E1 {
         double remainder = (value - deposit);
 
 
-//        System.out.format("== RECEIPT == \n Customer: " + firstName.substring(0,1) +
-//                " " + lastName + "\n Order Total " + value + "\n Deposit Paid " + deposit +
-//                "\n Remainder " + remainder );
-
         System.out.format("== RECEIPT == %n");
         System.out.format("Customer: " + firstName.substring(0,1) + " " + lastName + "%nOrder Total £%.2f%nDeposit Paid £%.2f%nRemainder £%.2f%n",(value), (deposit), (remainder));
-//        System.out.format("Order Total £%.2f%n", (value));
-//        System.out.format("Deposit Paid £%.2f%n", (deposit));
-//        System.out.format("Remainder £%.2f%n", (remainder));
+        //  Substring() can be replaced with CharAt()
 
         if (deposit > 100) {
             System.out.println("You get a free toaster!");
